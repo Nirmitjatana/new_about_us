@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us|Akina</title>
+    <style>
+        .parent{
+            /* text-align: center; */
+            /* align-items: center; */
+            /* border-color: yellowgreen; */
+            /* border-style: solid; */
+            font-family:sans-serif;
+        }
+        .logo{
+            /* border-color: yellowgreen; */
+            /* border-style: solid; */
+            text-align: center;
+            margin:70px;
+        }
+        .logo > img{
+            height:45px;
+            width:180px;
+        }
+        .what{
+            /* border-color: yellowgreen; */
+            /* border-style: solid; */
+            text-align: center;
+            
+            width:40vw;
+            margin:0px auto;
+            
+        }
+        .what > h1{
+            color:#00d2d2;
+            
+        }
+        .features > h1{
+            color:#00d2d2;
+            
+            padding-top:50px;
+            padding-bottom: 45px;
+            text-align: center;
+        }
+        .what > h4{
+            color:#989898;
+            font-size:large;
+            text-align:center;
+            font-weight: 100;
+            letter-spacing: 1.6px;
+        }
+        .circle{
+            width:50px;
+            height:50px;
+            border-radius: 100%;
+            background-color: #ff0168;
+            display:inline-block;
+            text-align: center;
+        }
+        .circle > img{
+            height:17px;
+            width:22px;
+            margin-top:16px;
+            
+        }
+        .circle2{
+            width:50px;
+            height:50px;
+            border-radius: 100%;
+            background-color: #02dcdc;
+            display:inline-block;
+            text-align: center;
+        }
+        .circle2 > img{
+            height:22px;
+            width:22px;
+            margin-top:14px;
+            
+        }
+        
+        .text{
+            display: inline-block;
+        }
+        .text > h3{
+            padding-left:10px;
+        }
+        .feed{
+            /* border-color: yellowgreen; */
+            /* border-style: solid; */
+            width:40vw;
+            margin:0px auto;
+            padding:50px;
+
+        }
+        .feed2{
+            /* border-color: yellowgreen; */
+            /* border-style: solid; */
+            width:40vw;
+            margin:0px auto;
+            padding:50px;
+            padding-top:-40px;
+        }
+        
+        .content{
+            
+            color:#989898;
+            /* width:30vw; */
+            /* float:right */
+            
+        }
+        .border{
+            
+            border-style: solid;
+            border-left-style: hidden;
+            border-right-style: hidden;
+            border-bottom-style:hidden;
+            width:30vw;
+            float:right;
+            border-top-width:0.5px;
+            margin-top:-30px;
+        }
+        .border2{
+            color:#989898;
+            border-style: solid;
+            border-left-style: hidden;
+            border-right-style: hidden;
+            border-bottom-style:hidden;
+            width:30vw;
+            border-top-width:0.5px;
+            margin-top:-30px;
+        }
+        .border3{
+            color:#989898;
+            border-style: solid;
+            border-left-style: hidden;
+            border-right-style: hidden;
+            border-bottom-style:hidden;
+            width:27vw;
+            float:right;
+            border-top-width:0.5px;
+            margin-top:-30px;
+        }
+        .content > h3{
+            padding-top:40px;
+            font-weight: 100;
+            /* font-size:initial; */
+        }
+        .content1{
+            padding-top:40px;
+            font-weight: 100;
+            text-align: right;
+        }
+        .feedlogo{
+            /* border-color: yellowgreen; */
+            /* border-style: solid; */
+            background-color: white;
+            width:17vw;
+            margin-top:-48px;
+            
+            
+        }
+        .feedlogo1{
+            /* border-color: yellowgreen; */
+            /* border-style: solid; */
+            background-color: white;
+            width:9vw;
+            padding-left: 25px;
+            float:right;
+            margin-top:-58px;
+        }
+        .circle1{
+            width:50px;
+            height:50px;
+            border-radius: 100%;
+            background-color: #02dcdc;
+            display:inline-block;
+            text-align: center;
+            background-color: #ffb600;
+        }
+        .circle1 > img{
+            height:22px;
+            width:22px;
+            margin-top:14px;
+            
+        }
+        .buttons{
+            margin:30px;
+            text-align: center;
+        }
+        .button1{
+            display:inline-block;
+            margin:8px;
+        }
+        .button2{
+            display:inline-block;
+            margin:8px;
+        }
+        .button1 > button{
+            width:170px;
+            height:55px;
+            font-size: large;
+            font-weight: 550;
+            color:white;
+            background-color:#00d2d2;
+            border-style: solid;
+            border-color: #00d2d2;
+            border-radius: 5px;
+
+        }
+        .button2 > button{
+            width:170px;
+            height:55px;
+            font-size:large;
+            font-weight:550;
+            border-style: solid;
+            border-radius: 5px;
+            box-shadow: #989898;
+        }
+        @media screen and (max-width: 700px){
+            .what{
+                width:95vw;
+            }
+            .feed{
+                width:73vw;
+            }
+            .feed2{
+                width:73vw;
+            }
+            .feedlogo{
+                width:50vw;
+            }
+            .feedlogo1{
+                width:30vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="logo">
+        <img src="group_5.PNG">
+    </div>
+    <div class="what">
+        <h1>What is Akina?</h1><br>
+        <h4>Low on supplies and can't find them around you? Confused on what to believe and what not to believe? Want to have a list of all the resources around you? Don't worry Akina is here, the all in one platform for all these problems during this time of epidemic.</h4>
+    </div>
+    <div class="features">
+        <h1>Features</h1>
+    </div>
+    <div class="parent1">
+    <div class="feed">
+    <div class="feedlogo">
+        <div class="circle">
+            <img src="feed.PNG">
+        </div>
+        <div class="text">
+            <h3>FEED</h3>
+        </div>
+    </div>
+    <div class="border"></div>
+    <div class="content">
+        <h3>The go to place for everyone that wants help with supplies and wants to help out others who are in need of supplies. This section shows you a continuous list of all the needs of people around you. You can either suggest a shop which can supply the material or help them out by giving them supplies. Akina provides you a chat room to coordinate directly with the person in need.
+        </h3>
+    </div>
+    
+    </div>
+    <div class="feed">
+        <div class="feedlogo1">
+            <div class="circle1">
+                <img src="news.PNG">
+            </div>
+            <div class="text">
+                <h3>NEWS</h3>
+            </div>
+        </div>
+        <div class="border2"></div>
+        <div class="content">
+            <h3 class="content1">There are ample resources to give us information but the most difficult part is to get correct information from credible sources. This is what the news section does it gets you only the official information from WHO resources only.</h3>
+        </div>
+        </div>
+        <div class="feed2">
+            <div class="feedlogo">
+                <div class="circle2">
+                    <img src="explore.PNG">
+                </div>
+                <div class="text">
+                    <h3>EXPLORE</h3>
+                </div>
+            </div>
+            <div class="border3"></div>
+            <div class="content">
+                <h3>n the time of need it is very reassuring to have resources around you Listed and have ready for you at the click of a button. Explore section provide you with exactly this with all the resources present right in front of you when you need them.</h3>
+            </div>
+            </div>
+        <div class="buttons">
+            <div class="button1">
+                <button>Visit Website</button>
+            </div>
+            <div class="button2">
+                <button>Download App</button>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+</body>
+</html>
